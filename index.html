@@ -1,144 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Threaded Dreams</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monki Clone</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Georgia', serif;
-      background-color: #f5efe9;
-      color: #4a4a4a;
-    }
-
-    header {
-      text-align: center;
-      padding: 40px 20px;
-      border-bottom: 1px solid #ddd;
-    }
-
-    header h1 {
-      font-size: 40px;
-      letter-spacing: 2px;
-      margin: 0;
-    }
-
-    header p {
-      font-size: 14px;
-      color: #777;
-    }
-
-    nav {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 15px;
-      padding: 15px;
-      border-bottom: 1px solid #ddd;
-    }
-
-    nav a {
-      text-decoration: none;
-      color: #4a4a4a;
-      font-size: 14px;
-      transition: 0.3s;
-    }
-
-    nav a:hover {
-      color: #000;
-    }
-
-    .hero {
-      text-align: center;
-      padding: 60px 20px;
-    }
-
-    .hero h2 {
-      font-size: 28px;
-      margin-bottom: 10px;
-    }
-
-    .hero p {
-      color: #666;
-    }
-
-    .categories {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
-      padding: 40px;
-    }
-
-    .card {
-      background: #fff;
-      border-radius: 12px;
-      padding: 30px 20px;
-      text-align: center;
-      border: 1px solid #eee;
-      transition: 0.3s;
-      cursor: pointer;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-    }
-
-    footer {
-      text-align: center;
-      padding: 30px;
-      font-size: 12px;
-      color: #777;
-      border-top: 1px solid #ddd;
-    }
-  </style>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <header>
-    <h1>Threaded Dreams</h1>
-    <p>Handmade Crochet with Love</p>
-  </header>
+<!-- TOP NAV -->
+<div class="top-bar">
+  <div class="left-links">
+    <a>Bags</a>
+    <a>Tshirt</a>
+    <a>Accessories</a>
+  </div>
 
-  <nav>
-    <a href="#">Hats</a>
-    <a href="#">Sets</a>
-    <a href="#">Gloves</a>
-    <a href="#">Amigurumi</a>
-    <a href="#">Scarfs</a>
-    <a href="#">Sweaters</a>
-    <a href="#">Blankets</a>
-    <a href="#">Curtains</a>
-    <a href="#">Toys</a>
-    <a href="#">Table Covers</a>
-    <a href="#">Tops</a>
-  </nav>
+  <div class="logo">THREADED DREAMS</div>
 
-  <section class="hero">
-    <h2>Unique Handmade Crochet Pieces</h2>
-    <p>Carefully crafted items to bring warmth and beauty to your life</p>
-  </section>
+  <div class="icons">
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" class="icon"></a>
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/54/54481.png" class="icon"></a>
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png" class="icon"></a>
+  <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/263/263142.png"class="icon"></a>
+   
+  </div>
+</div>
 
-  <section class="categories">
-    <div class="card">Hats</div>
-    <div class="card">Sets</div>
-    <div class="card">Gloves</div>
-    <div class="card">Amigurumi</div>
-    <div class="card">Scarfs</div>
-    <div class="card">Sweaters</div>
-    <div class="card">Blankets</div>
-    <div class="card">Curtains</div>
-    <div class="card">Toys</div>
-    <div class="card">Table Covers</div>
-    <div class="card">Tops</div>
-  </section>
+<!-- MAIN NAV -->
+<div class="main-nav">
+  <a>Home +</a>
+  <a>Shop +</a>
+  <a>Collection</a>
+  <a>Blog +</a>
+  <a>Pages +</a>
+  <a>Elementors +</a>
+</div>
 
-  <footer>
-    © 2026 Threaded Dreams — All rights reserved
-  </footer>
+<!-- CATEGORY CIRCLES -->
+<div class="categories">
+  <div class="cat"><img src="https://i.pravatar.cc/150?img=1"><p>New Arrivals</p></div>
+  <div class="cat"><img src="https://i.pravatar.cc/150?img=2"><p>Holiday Hotlist</p></div>
+  <div class="cat"><img src="https://i.pravatar.cc/150?img=3"><p>Now Trending</p></div>
+  <div class="cat"><img src="https://i.pravatar.cc/150?img=4"><p>Cool Shirts</p></div>
+  <div class="cat"><img src="https://i.pravatar.cc/150?img=5"><p>Dresses</p></div>
+  <div class="cat"><img src="https://i.pravatar.cc/150?img=6"><p>Accessories</p></div>
+  <div class="cat"><img src="https://i.pravatar.cc/150?img=7"><p>Deals</p></div>
+  <div class="cat"><img src="https://i.pravatar.cc/150?img=8"><p>Shop All</p></div>
+</div>
 
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>Confidence</h1>
+    <p>Flexibility with yourself and your looks shows self confidence.</p>
+    <button>Explore Now</button>
+  </div>
+
+  
+</section>
+
+  </div>
+
+<script src="script.js"></script>
+  
+  <footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- LEFT -->
+    <div class="footer-left">
+      <h2>MONKI</h2>
+      <p>Address: 1234 Fashion Street, Suite 567, New York, NY</p>
+      <p>Email: contact@example.com</p>
+      <p>Phone: (212)555-1234</p>
+
+      <a href="#" class="direction">Get direction</a>
+
+      <div class="socials">
+        <span>f</span>
+        <span>t</span>
+        <span>i</span>
+        <span>p</span>
+        <span>t</span>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="footer-right">
+      <h3>Help</h3>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Returns + Exchanges</a>
+      <a href="#">Shipping</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">FAQ’s</a>
+      <a href="#" class="highlight">Compare</a>
+      <a href="#">My Wishlist</a>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM -->
+  <div class="footer-bottom">
+    <p>© Copyright 2024. Designed by BZOTech.com</p>
+  </div>
+
+</footer>
+  
 </body>
+
 </html>
